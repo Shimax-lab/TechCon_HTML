@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <a href="about.html">About</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="register.html">Register</a>
+</nav>
+
+<main>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:techcon@gmail.com">techcon@gmail.com</a></p>
+    </section>
+
+    <section class="social-media">
+        <h2>Follow Us</h2>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a> 
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </section>
+
+    <section class="map">
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/place/Kigali+Marriott+Hotel/@-1.9537135,30.0621258,17z/data=!4m9!3m8!1s0x19dca4294197b1a5:0xafa0c46887b3a2c6!5m2!4m1!1i2!8m2!3d-1.9537135!4d30.0621258!16s%2Fg%2F11b6w9h93r?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"></iframe>
+    </section>
+
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
